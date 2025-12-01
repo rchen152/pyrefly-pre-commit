@@ -1,6 +1,6 @@
 repos:
-  - repo: https://github.com/facebook/pyrefly-pre-commit
-    rev: 0.0.1
+  - repo: https://github.com/rchen152/pyrefly-pre-commit
+    rev: feat
     hooks:
       - id: pyrefly-check
         name: Pyrefly (type checking)
