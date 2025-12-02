@@ -1,11 +1,10 @@
 repos:
   - repo: https://github.com/rchen152/pyrefly-pre-commit
-    rev: feat
+    rev: 0.42.0
     hooks:
       - id: pyrefly
         name: Pyrefly (type checking)
         pass_filenames: false
         additional_dependencies:
-          - pyrefly==0.43.1
           - requests==2.32.4
           - types-requests==2.32.4.20250913
